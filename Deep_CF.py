@@ -92,7 +92,7 @@ print("Mean squared error is : ", np.mean((np.dot(X_test,np.ones(i))-Y)**2 ))
 
 
 """
-
+"""
 #Example where X,Z have 1 dimension
 n=2000
 
@@ -141,3 +141,4 @@ predictions_naive = model_naive.predict(X)
 plt.plot(X_sorted, predictions_naive[sorted_indices] ,label='naive estimator' ,color='yellow')
 plt.legend()
 plt.show()
+"""
