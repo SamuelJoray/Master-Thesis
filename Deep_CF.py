@@ -2,7 +2,7 @@
 
 """
 Deep Control Function uses the principle of control function method and use it along with deep learning. 
-This allows to weaken some assumptions of Control Function algorithm. More details in the Master thesis pdf document.
+This allows to weaken some assumptions of Control Function algorithm. 
 """
 
 import numpy as np
