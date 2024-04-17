@@ -1,6 +1,6 @@
 #Plots used in the Chapter "Simulations" in Section "Estimated Mean Function".
 #Running time of this file can be extensively long depending on the number of epochs used and number of settings considered.
-#It includes the following estimators: CFSpline,Spline2sls,Spline and DeepCF available in the Github coded by my own
+#It includes the following estimators: CFSpline,Spline2sls,Spline and DeepCF.
 #The following estimators are from previous work, they need to be imported before running this file, they can be found in the link mentionned. 
 #DeepIV: https://github.com/py-why/EconML
 #DeepGMM: https://github.com/CausalML/DeepGMM
