@@ -10,10 +10,10 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from spline2sls import Spline2sls
-from spline import Spline
-from Deep_CF import DeepCF
-from Control_Function_spline import CFSpline
+from ..spline2sls import Spline2sls
+from ..spline import Spline
+from ..Deep_CF import DeepCF
+from ..Control_Function_spline import CFSpline
 
 
 import torch
@@ -29,7 +29,7 @@ from econml.iv.nnet import DeepIV
 from methods.toy_model_selection_method import ToyModelSelectionMethod
 
 #importing gcfn
-from gcfn.gcfn import GCFN
+from ..gcfn import GCFN
 
 def mse(pred,true):
     return np.mean((pred-true)**2)
