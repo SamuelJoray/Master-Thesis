@@ -9,7 +9,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from Deep_CF import DeepCF
+from ..Deep_CF import DeepCF
 
 import importlib
 import keras
